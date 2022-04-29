@@ -17,15 +17,29 @@ body {
 }
 
 header .container {
+    margin: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    
+}
+
+.logo-netflix {
+    margin-right: 2%;
+    cursor: pointer;
 }
 
 header nav a {
     text-decoration: none;
     color: #FFF;
     margin-right: 10px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 header nav a:hover {
@@ -39,7 +53,9 @@ header nav a:hover {
     font-size: 20px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)) ,url('/img/breaking-bad.jpg');
 
+    width: auto;
     height: 850px;
+    background-repeat: no-repeat;
     background-size: cover;
 
     display: flex;
@@ -49,8 +65,12 @@ header nav a:hover {
 
 }
 
+header .container{
+    margin-left: 3%;
+}
+
 .serie-capa .container{
-    margin: 65px;
+    margin: 2.8%;
 }
 
 .serie-capa .sinopse {
@@ -59,7 +79,7 @@ header nav a:hover {
 }
 
 .titulo {
-    margin-top: 35%;
+    margin-top: 45%;
     font-size: 50px;
     margin-bottom: 10px;
 }
@@ -101,4 +121,22 @@ header nav a:hover {
 
 i {
     margin-right: 10px;
+}
+
+/* Carrosel */
+
+.carrosel-series{
+    margin-left: 2.8%;
+}
+
+div h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 4px;
 }
